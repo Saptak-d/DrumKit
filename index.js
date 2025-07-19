@@ -3,6 +3,7 @@ document.querySelectorAll("#a1").forEach(function(el) {
 
         this. style.color  =  "black";
         let buttonInnerHTML = this.innerHTML;
+        let records = "";
         buttonAnimation(buttonInnerHTML);
         switch(buttonInnerHTML){
             case "w":
